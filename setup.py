@@ -2,15 +2,15 @@ from setuptools import setup
 
 setup(
         name="poe_terminal_chat",
-        version="0.0.1",
+        version="0.0.3",
         descrption="poe(a third part AI assistant) terminal chat, can have accesses of chatgpt and claude",
         url="https://github.com/Mushrr/poe_terminal_chat",
-        author="Mushrr",
+        author="Mushr",
         author_email="huangxingjiegkd@163.com",
         license="MIT",
         packages=["poe_terminal_chat"],
         entry_points = {
-            'console_scripts': ['poechat=poe_terminal_chat.src.entry:main']
+            'console_scripts': ['poechat=poe_terminal_chat.command_line:main']
             },
         install_requires=[
             "poe-api>=0.2.10",
