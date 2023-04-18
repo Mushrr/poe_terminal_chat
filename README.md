@@ -14,7 +14,7 @@ more information about pipx installation [pipx](https://github.com/pypa/pipx#ins
 
 ```shell
 
-pipx install poe_terminal_chat==0.0.2
+pipx install poe_terminal_chat
 ```
 
 #### 3. get poe token & set proxy server
