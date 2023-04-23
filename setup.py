@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
         name="poe_terminal_chat",
-        version="0.0.5",
+        version="0.0.6",
         description="poe(a third part AI assistant) terminal chat, can have accesses of chatgpt and claude",
         url="https://github.com/Mushrr/poe_terminal_chat",
         author="Mushr",

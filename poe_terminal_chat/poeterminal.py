@@ -31,7 +31,7 @@ class Poe:
             try:
                 self.single_chat(question, with_chat_break=False)
             except:
-                print("好像网络出了点问题，重新发一下吧~🙌", end='')
+                print("好像网络出了点问题，重新发一下吧~🙌", end='', flush=True)
             print("\n")
         print(f"Hope this journey with {self.bot_name} can help you!")
         return

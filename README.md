@@ -35,4 +35,23 @@ poechat -h # can help know more about this program
 
 ### 2. example
 
+* single quering
 ![rabbit](./screenshots/draw_rabbit.png)
+
+* show bots
+```shell
+poechat -b
+```
+
+* chat mode
+```shell
+poechat --bot bot_name
+```
+
+![](./screenshots/chat_mode.png)
+
+
+* create a bot 
+```shell
+poechat -a
+```

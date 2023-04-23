@@ -64,4 +64,3 @@ def create_bot(client: poe.Client):
     except:
         print("Create Bot failed!")
         exit(0)
-
